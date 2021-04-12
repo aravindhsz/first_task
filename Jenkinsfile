@@ -8,7 +8,7 @@ node {
     }
 
     stage('Build image') {
-        /* This builds the actual image */
+        /* This builds the actal image */
 
         app = docker.build("aravindhsz/nodeapp")
     }
